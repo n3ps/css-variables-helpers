@@ -1,0 +1,24 @@
+{
+  "name": "css-variables-helpers",
+  "version": "1.0.0",
+  "description": "Helpers for working with CSS variables in JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n3ps/css-variables-helpers.git"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "css",
+    "variables",
+    "custom",
+    "properties",
+    "css variables",
+    "css custom properties"
+  ],
+  "author": {
+    "name": "Francis Nepomuceno",
+    "url": "https://francisn.com"
+  },
+  "license": "MIT"
+}
