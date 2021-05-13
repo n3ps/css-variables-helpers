@@ -13,13 +13,11 @@ function set (property, value, elem = document.documentElement) {
 function toggle (property, values = [], elem = document.documentElement) {
   const existing = get(property, elem)
 
-  if (!existing || !values.includes(existing)) {
-    set(property, values[0], elem)
-  } else {
-    const index = values.indexOf(existing) + 1
-    const newValue = values[index > values.length ? 0 : index]
-    set(property, newValue , elem)
-  }
+  if (!existing || !values.includes(existing)) return
+
+  const newIndex = values.indexOf(existing) + 1
+  const newValue = values[newIndex > values.length - 1 ? 0 : newIndex]
+  set(property, newValue, elem)
 }
 
 export {
