@@ -1,6 +1,6 @@
 {
   "name": "css-variables-helpers",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Helpers for working with CSS variables in JavaScript",
   "repository": {
     "type": "git",
